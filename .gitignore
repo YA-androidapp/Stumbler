@@ -9,7 +9,8 @@
 *.class
 
 # Generated files
-bin/
+bin/*
+!bin/Stumbler.apk
 gen/
 
 # Gradle files

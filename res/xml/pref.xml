@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="@string/action_settings" >
+        <CheckBoxPreference
+            android:key="enable_show_gpssetting_if_disable"
+            android:title="@string/enable_show_gpssetting_if_disable" />
+        <CheckBoxPreference
+            android:key="enable_show_gpssetting_on_destroy"
+            android:title="@string/enable_show_gpssetting_on_destroy" />
+        <CheckBoxPreference
+            android:key="enable_revgeocode"
+            android:title="@string/enable_revgeocode" />
+
+        <EditTextPreference
+            android:defaultValue="5000"
+            android:key="interval"
+            android:title="@string/interval" />
+        <EditTextPreference
+            android:defaultValue="1"
+            android:key="min_distance"
+            android:title="@string/min_distance" />
+        <EditTextPreference
+            android:defaultValue="20"
+            android:key="map_zoom"
+            android:title="@string/map_zoom" />
+        <EditTextPreference
+            android:defaultValue="20"
+            android:key="revgeocode_interval"
+            android:title="@string/revgeocode_interval" />
+
+        <RingtonePreference
+            android:key="sound_update"
+            android:ringtoneType="all"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/sound_update" />
+        <RingtonePreference
+            android:key="sound_error"
+            android:ringtoneType="all"
+            android:showDefault="true"
+            android:showSilent="true"
+            android:title="@string/sound_error" />
+    </PreferenceCategory>
+
+</PreferenceScreen> <!-- Copyright (c) 2012-2015 YA <ya.androidapp@gmail.com> All rights reserved. -->
